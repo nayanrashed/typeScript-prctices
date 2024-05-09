@@ -1,4 +1,5 @@
-type Shape = Square | Circle;
+{
+  type Shape = Square | Circle;
 
 type Square = {
   type: "square";
@@ -30,3 +31,4 @@ const circle: Circle = {
 };
 const result = calculateArea(circle);
 console.log(result);
+}
